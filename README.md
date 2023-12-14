@@ -1,7 +1,7 @@
 # CSI Linux modification
 This document contains some small extensions to the comprehensive CSI Linux distribution. These mainly consist of installing additional software to meet personal needs during investigation cases.
 
-Everything has been tested with CSI Linux 2023 (as of July 2023).
+Everything has been tested with CSI Linux 2023 (as of December 2023).
 
 ## Prerequisites
 - Install XRDP (to connect via RDP)
@@ -58,7 +58,7 @@ Everything has been tested with CSI Linux 2023 (as of July 2023).
 ## Zui
 - Get the latest package from https://github.com/brimdata/zui/releases/ and install, e.g.
   ```bash
-  wget -O /tmp/zui.dpkg https://github.com/brimdata/zui/releases/download/v1.1.0/zui_1.1.0_amd64.deb
+  wget -O /tmp/zui.dpkg https://github.com/brimdata/zui/releases/download/v1.4.1/zui_1.4.1_amd64.deb
   sudo dpkg -i /tmp/zui.dpkg
   ```
 
@@ -129,7 +129,7 @@ ln -s /home/csi/tools/ViperMonkey /home/csi/Desktop/Additional\ Tools/ViperMonke
   echo 'export PATH=$PATH:/opt/zeek/bin/' >> /home/csi/.bashrc
   ```
 
-## Rita
+## RITA
 - Preparing to use RITA via Docker
   ```bash
   mkdir -p /home/csi/tools/ritaconf
